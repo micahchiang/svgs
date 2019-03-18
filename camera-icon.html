@@ -1,0 +1,40 @@
+<svg>
+    <line x1="165" y1="200" x2="165" y2="195" />
+    <line x1="165" y1="195" x2="195" y2="195" />
+    <line x1="195" y1="195" x2="195" y2="200" />
+    <rect x="300" y="210" width="40" height="10" />
+    <rect x="150" y="200" width="200" height="100" class="camera-body" rx="5" ry="5" />
+    <circle class="lens" cx="250" cy="250" r="30px" />
+    <circle cx="250" cy="250" r="15px" fill="#404040" />
+    <path class="glare" d="M230 265 A 10 10 0 0 0 270 235 z" />
+</svg>
+
+<style>
+html {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+svg {
+  background: #dedede;
+  height: 500px;
+  width: 500px;
+  fill: #cccccc;
+  stroke: black;
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+.lens {
+fill: #5e5e5e;
+}
+.glare {
+fill: #c9c9c9;
+stroke: transparent;
+opacity: 0.7;
+}
+.camera-body {
+fill: transparent;
+}
+
+</style>
